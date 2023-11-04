@@ -6,6 +6,8 @@ const cheerio = require('cheerio');
 const token = '6851761427:AAEfysdeNNBFUlEy3nztjCZU_DGMzgwkHwo'; // Replace with your bot's API token
 const bot = new TelegramBot(token, { polling: true });
 
+console.log("server running");
+
 
 // Handle the /start command
 bot.onText(/\/start/, (msg) => {
